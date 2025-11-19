@@ -1,5 +1,5 @@
 # Implementation of different bioturbation/ transport models DRAFT
-# Clemens Abraham/ Claude.AI
+# C. Abraham/ Claude.AI
 
 ### Housekeeping ####
 library(rootSolve)
@@ -416,5 +416,6 @@ depth <- seq(0, 15, by = 0.01)
 lines(Pb, depth, lty = 1, lwd = 2) # assumes constant porosity
 # lines(Pb_interphase, depth, lty = 3)
 legend("bottom", c("constant porosity mixing", "intraphase mixing"), lty = c(1, 2), lwd = 2)
+
 
 
